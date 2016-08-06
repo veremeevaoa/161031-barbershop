@@ -37,16 +37,16 @@
     <main class="container">
       <h1>Средства для ухода</h1>
       <div class="breadcrumbs">
-        <a href="index.html">Главная</a>
-        <img src="/img/" width="11" height="12">
-        <a href="#">Магазин</a>
-        <img src="/img/" width="11" height="12">
-        <span>Средства для ухода</span>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><span>Средства для ухода</span></li>
+        </ul>
       </div>
       <aside>
         <form class="filters" action="" method="get">
-          Производители:
           <fieldset class="filters-producers">
+            <legend>Производители:</legend>
             <label><input type="checkbox" checked> Baxter of California</label>
             <label><input type="checkbox"> Mr Natty</label>
             <label><input type="checkbox" checked> Suavecito</label>
@@ -54,8 +54,8 @@
             <label><input type="checkbox"> Murray's</label>
             <label><input type="checkbox" checked> American crew</label>
           </fieldset>
-          Группы товаров:
           <fieldset class="filters-categories">
+            <legend>Группы товаров:</legend>
             <label><input type="radio"> Бритвенные принадлежности</label>
             <label><input type="radio" checked> Средства для ухода</label>
             <label><input type="radio"> Аксессуары</label>
@@ -67,38 +67,50 @@
         <article class="catalog-item">
           <a href="catalog-item.html"><img src="/img/" alt="Набор для путешествий" width="220" height="165"></a>
           <a href="catalog-item.html"><p class="title">Набор для путешествий "Baxter of California"</p></a>
-          <p class="price">2900 руб.</p>
-          <a class="btn" href="#" >Купить</a>
+          <div class=buttons>
+            <p class="price">2900 руб.</p>
+            <a class="btn" href="#" >Купить</a>
+          </div>
         </article>
         <article class="catalog-item">
           <a href="#"><img src="/img/" alt="Кондиционер" width="220" height="165"></a>
           <a href="#"><p class="title">Увлажняющий кондиционер "Baxter of California"</p></a>
-          <p class="price">750 руб.</p>
-          <a class="btn" href="#" >Купить</a>
+          <div class=buttons>
+            <p class="price">750 руб.</p>
+            <a class="btn" href="#" >Купить</a>
+          </div>
         </article>
         <article class="catalog-item">
           <a href="#"><img src="/img/" alt="Гель" width="220" height="165"></a>
           <a href="#"><p class="title">Гель для волос "Suavecito"</p></a>
-          <p class="price">290 руб.</p>
-          <a class="btn" href="#">Купить</a>
+          <div class=buttons>
+            <p class="price">290 руб.</p>
+            <a class="btn" href="#">Купить</a>
+          </div>
         </article>
         <article class="catalog-item">
           <a href="#"><img src="/img/" alt="Глина" width="220" height="165"></a>
           <a href="#"><p class="title">Глина для укладки "American crew"</p></a>
-          <p class="price">500 руб.</p>
-          <a class="btn" href="#" >Купить</a>
+          <div class=buttons>
+            <p class="price">500 руб.</p>
+            <a class="btn" href="#" >Купить</a>
+          </div>
         </article>
         <article class="catalog-item">
           <a href="#"><img src="/img/" alt="Гель" width="220" height="165"></a>
           <a href="#"><p class="title">Гель для волос "American crew"</p></a>
-          <p class="price">300 руб.</p>
-          <a class="btn" href="#" >Купить</a>
+          <div class=buttons>
+            <p class="price">300 руб.</p>
+            <a class="btn" href="#" >Купить</a>
+          </div>
         </article>
         <article class="catalog-item">
           <a href="#"><img src="/img/" alt="Набор для бритья" width="220" height="165"></a>
           <a href="#"><p class="title">Набор для бритья "Baxter of California"</p></a>
-          <p class="price">3900 руб.</p>
-          <a class="btn" href="#" >Купить</a>
+          <div class=buttons>
+            <p class="price">3900 руб.</p>
+            <a class="btn" href="#" >Купить</a>
+          </div>
         </article>
       </section>
       <div class="toggles">

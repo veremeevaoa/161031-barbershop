@@ -13,8 +13,17 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
+header a,
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .main-header {
     background: #000000;
+}
+.main-navigation li,
+.user-block {
+  display: inline-block;
 }
 /*Главная*/
 .main-page {
@@ -37,7 +46,7 @@ body {
     width: 940px;
     margin: 0 auto;
     padding: 55px 80px;
-    background: #ffffff url("../img/section-bg.jpg");
+    background: #ffffff url("../img/section-bg100.png");
     color: #000000;
 }
 .main-page .index-content-left,
@@ -60,7 +69,7 @@ body {
 /*Каталог*/
 .catalog-card,
 .catalog-page {
-    background: #ffffff url("../img/section-bg.jpg");
+    background: #ffffff url("../img/section-bg100.png");
     color: black;
 }
 .catalog-page h1 {
@@ -68,6 +77,11 @@ body {
     font-size: 30px;
     line-height: 42px;
     font-weight: 700;
+}
+.catalog-item {
+  display: inline-block;
+  width: 220px;
+  background: #ffffff;
 }
 /*Карточка товара*/
 .catalog-card {
@@ -79,7 +93,18 @@ body {
     line-height: 42px;
     font-weight: 700;
 }
+.catalog-card .index-content-left,
+.catalog-card .index-content-right {
+    display: inline-block;
+}
+.catalog-card .index-content-left {
+  width: 600px;
+  vertical-align: top;
+}
+.catalog-card .index-content-right {
+  width: 400px;
+}
 /*Подвал*/
 footer {
-    background: #000000 url("../img/footer-bg.jpg");
+    background: #000000 url("../img/footer-bg100.png");
 }

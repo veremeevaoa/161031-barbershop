@@ -1,21 +1,85 @@
 body {
-	font-family: 'PT Sans Narrow', 'Arial Narrow', sans-serif;
-    font-size: 14px; 
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
     background: #000000;
     color: white;
+    font-weight: 700;
+    text-transform: uppercase;
 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-header {
+    background: #000000;
+}
+/*Главная*/
+.main-page {
+    background: #000000 url("../img/tint.jpg") no-repeat 50%;
+}
+.index-logo {
+    width: 368px;
+    margin: 0 auto;
+}
+.main-page .features {
+    width: 907px;
+    margin: 0 auto;
+}
+.main-page .features-item {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+.main-page .index-content {
+    width: 940px;
+    margin: 0 auto;
+    padding: 55px 80px;
+    background: #ffffff url("../img/section-bg.jpg");
+    color: #000000;
+}
+.main-page .index-content-left,
+.main-page .index-content-right {
+    display: inline-block;
+    width: 390px;
+    vertical-align: top;
+}
+.main-page .index-content-left {
+    text-align: left;
+}
+.main-page .index-content-right {
+    text-align: center;
+}
+.main-page h2 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+}
+/*Каталог*/
 .catalog-card,
 .catalog-page {
-    background: url("img/section-bg.png") #ffffff;
+    background: #ffffff url("../img/section-bg.jpg");
     color: black;
 }
-.main-page {
-    width: 2560px;
-    background: url("img/tint.jpg") no-repeat #000000;
-    background-size: contain;
-    color: white;
+.catalog-page h1 {
+    font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
 }
+/*Карточка товара*/
 .catalog-card {
     width: 1200px;
-    height: 952px;
+}
+.catalog-card h1 {
+    font-family: "PT Sans Narrow", "Arial Narrow", sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+}
+/*Подвал*/
+footer {
+    background: #000000 url("../img/footer-bg.jpg");
 }
